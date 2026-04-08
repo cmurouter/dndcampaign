@@ -2,24 +2,3 @@
 @use "themes";
 
 // put your custom CSS here!
-:root[saved-theme="dark"] {
-  --light: #1e3831;          /* --background-primary */
-  --lightgray: #2e4d3c;      /* --background-secondary */
-  --gray: #6b4f35;           /* --background-modifier-border */
-  --darkgray: #c9b48a;       /* --text-normal */
-  --dark: #e8d5a3;           /* --text-on-dark */
-  --secondary: #c0392b;      /* --text-accent */
-  --tertiary: #d4a017;       /* --text-accent-hover */
-  --highlight: rgba(212, 160, 23, 0.15);
-}
-
-:root[saved-theme="light"] {
-  --light: #f4edd8;          /* --background-primary */
-  --lightgray: #d9c9a3;      /* --background-secondary */
-  --gray: #a0896e;           /* --background-modifier-border */
-  --darkgray: #3b2a1a;       /* --text-normal */
-  --dark: #1e0f00;           /* --text-on-dark */
-  --secondary: #7a1c1c;      /* --text-accent */
-  --tertiary: #b8860b;       /* --text-accent-hover */
-  --highlight: rgba(184, 134, 11, 0.15);
-}
