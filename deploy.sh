@@ -24,7 +24,6 @@ echo "Building and deploying..."
 git add .
 git commit -m "build: deploy with physical content"
 git push
-npx quartz sync --no-pull
 
 # Step 5: Remove the physical content directory after deployment
 rm -rf "$SYMLINK_PATH"
